@@ -1,0 +1,130 @@
+body {
+    background-color: #f5f5f5;
+    color: #333;
+    font-family: 'Lato', sans-serif;
+    margin: 0;
+    padding: 0;
+}
+
+.container {
+    width: 80%;
+    margin: 0 auto;
+}
+
+header {
+    background-color: #333;
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.2);
+    padding: 20px 0;
+}
+
+.menu {
+    display: flex;
+    justify-content: center;
+}
+
+.menu-item {
+    text-decoration: none;
+    color: #fff;
+    font-size: 18px;
+    margin: 0 20px;
+    transition: color 0.3s ease;
+}
+
+.menu-item:hover {
+    color: #ffd700;
+}
+
+main {
+    margin: 20px;
+}
+
+.estilo-geral {
+    background-color: #fff;
+    border-radius: 10px;
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.2);
+    padding: 20px;
+    margin-top: 20px;
+    text-align: center;
+}
+
+.estilo-geral h1 {
+    margin-bottom: 20px;
+}
+
+.estilo-geral form {
+    max-width: 600px;
+    margin: 0 auto;
+}
+
+.estilo-geral form label {
+    display: block;
+    margin-bottom: 5px;
+}
+
+.estilo-geral form input[type="text"],
+.estilo-geral form input[type="date"],
+.estilo-geral form input[type="email"],
+.estilo-geral form select,
+.estilo-geral form textarea,
+.estilo-geral form input[type="tel"] {
+    width: 100%;
+    padding: 10px;
+    margin-bottom: 15px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    box-sizing: border-box;
+}
+
+.estilo-geral form textarea {
+    height: 100px;
+}
+
+.estilo-geral form input[type="submit"] {
+    background-color: #333;
+    color: #fff;
+    border: none;
+    padding: 10px 20px;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+.estilo-geral form input[type="submit"]:hover {
+    background-color: #444;
+}
+
+.social-item img {
+    width: 100px;
+    height: auto;
+}
+
+.fotoperfil {
+    width: 150px;
+    height: 150px;
+    border-radius: 50%;
+    overflow: hidden;
+    display: block;
+    margin: 0 auto 20px;
+    border: 3px solid rgb(3, 106, 119);
+}
+
+
+.estilo-geral p {
+    margin-top: 10px;
+}
+
+
+table {
+    border-collapse: collapse;
+    width: 100%;
+    border: 2px solid rgb(3, 106, 119);
+}
+
+th, td {
+    border: 1px solid rgb(3, 106, 119);
+    padding: 8px;
+    text-align: left;
+}
+
+th {
+    background-color: #f2f2f2;
+}

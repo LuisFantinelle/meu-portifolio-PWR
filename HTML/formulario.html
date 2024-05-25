@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Formulário</title>
+    <link rel="stylesheet" href="../CSS/estilosnovoportifolio.css">
+    <script src="../JS/JSnovoportifolio.js"></script>
+</head>
+<body>
+    <header>
+        <div class="container">
+            <nav>
+                <div class="menu">
+                    <a href="../index.html" class="menu-item">Portfólio</a>
+                    <a href="./formulario.html" class="menu-item">Formulário</a>
+                    <a href="./redessociais.html" class="menu-item">Redes Sociais</a>
+                </div>
+            </nav>
+        </div>
+    </header>
+    <main>
+        <div class="container">
+            <div class="estilo-geral">
+                <h1>Formulário</h1>
+                <h4>Ficou com alguma dúvida e/ou sugestão? <br> Nos envie!</h4>
+                <form>
+                    <label for="nome">Nome Completo:</label><br>
+                    <input type="text" id="nome" name="nome" placeholder="Exemplo: José da Silva" required><br>
+                    <label for="datanasc">Data de Nascimento:</label><br>
+                    <input type="date" id="datanasc" name="datanasc" required><br>
+                    <label for="email">Email:</label><br>
+                    <input type="email" id="email" name="email" placeholder="exemplo@email.com" required><br>
+                    <label for="genero">Sexo:</label><br>
+                    <select id="genero" name="genero" required>
+                        <option value="" disabled selected>Selecione</option>
+                        <option value="homem">Masculino</option>
+                        <option value="mulher">Feminino</option>
+                        <option value="outro">Outro</option>
+                    </select><br>
+                    <label for="phone">Telefone:</label><br>
+                    <input type="text" id="telefone" placeholder="(11)4002-8922" name="telefone" required><br>
+                    <label for="estadocivil">Estado Civil:</label><br>
+                    <select name="estadocivil" id="estadocivil">Selecione o seu Estado Civil:</select>
+                    <label for="mensagem">Mensagem:</label><br>
+                    <textarea id="mensagem" name="mensagem" rows="4" placeholder="Deixe aqui sua dúvida ou sugestão" required></textarea><br><br>
+                    <input onclick="btn_form()" type="submit" value="Enviar">
+                </form>
+            </div>
+        </div>
+    </main>
+</body>
+</html>
